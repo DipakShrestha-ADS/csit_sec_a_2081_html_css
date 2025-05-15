@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Example</title>
+</head>
+<body>
+    <!-- image using absolute link -->
+    <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?q=80&w=2130&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Flower Picture" height="200" width="200">
+    <!-- image using relative link -->
+     <img alt="caulitflower image" src="./assets/premium_photo-1664647731472-c3d77ac5d99e.avif" height="200" width="200">
+     <p>
+        <img alt="cauliflower image" src="./assets/premium_photo-1664647731472-c3d77ac5d99e.avif" height="100" width="100" style="float: right;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa temporibus nisi accusamus ipsam asperiores maiores alias quo consequatur dolor tempora porro amet, excepturi suscipit. Non necessitatibus reiciendis illo beatae doloremque.
+     </p>
+     <input>
+     <input type="text">
+     <input type="email">
+     <input type="checkbox">
+     <input type="radio">
+     <input type="password">
+     <input type="submit"><input type="reset">
+     <input type="button"><input type="color">
+     <input type="date">
+     <input type="datetime"><input type="file">
+     <input type="hidden">
+     <input type="image">
+     <input type="month">
+     <input type="number">
+     <input type="range">
+     <input type="search">
+     <input type="tel">
+     <input type="time">
+     <input type="url">
+     <input type="week">
+
+     <form action="https://dipakshrestha10.com.np" target="_blank">
+        <h1>Register</h1>
+        <label for="fullname">Full Name</label>
+        <input id="fullname" required="true" value="Ram bahadur" type="text" placeholder="Enter your full name" name="full_name"><br><br>
+        <input required type="email" placeholder="Enter your email" name="email"><br><br>
+        <input minlength="6" required type="password" placeholder="Enter your password" name="password"><br><br>
+        <input required type="date" name="date"><br><br>
+        <input type="file" accept=".pdf, .docs">
+        <br><br>
+        <label>
+            <input type="checkbox" checked onchange="alert('Checkbox is checked')">
+            I agree to the terms and conditions
+        </label>
+        <br><br>
+        <!-- radio button for gender -->
+        <p>
+            Select Your Gender<br>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label>
+        </p>
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset Form">
+     </form>
+</body>
+</html>
